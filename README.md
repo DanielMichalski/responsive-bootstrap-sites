@@ -1,5 +1,12 @@
 responsive-bootstrap-sites
 ==========================
 
-This project is Spring MVC + Bootstrap 3.2.0 application
-It contains a responsive Bootstrap site
+This project is Spring MVC + Bootstrap + Tiles application
+
+It contains some useful configuration items:
+
+- Spring MVC
+- Apache Tiles 3.0.5
+- Bootstrap 3.2.0
+- JQuery 1.11.0
+- Log4j
