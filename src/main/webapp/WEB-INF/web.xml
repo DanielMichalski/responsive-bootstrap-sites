@@ -5,9 +5,18 @@
 
 	<display-name>Spring MVC Application</display-name>
 
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath*:/spring/context-*xml</param-value>
+	</context-param>
+
     <servlet>
 		<servlet-name>mvc-dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/spring/web-mvc.xml</param-value>
+		</init-param>
         <load-on-startup>1</load-on-startup>
 	</servlet>
 
@@ -15,4 +24,9 @@
 		<servlet-name>mvc-dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
 </web-app>

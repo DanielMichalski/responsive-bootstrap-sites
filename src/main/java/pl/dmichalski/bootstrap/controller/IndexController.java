@@ -1,4 +1,4 @@
-package pl.dmichalski;
+package pl.dmichalski.bootstrap.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
