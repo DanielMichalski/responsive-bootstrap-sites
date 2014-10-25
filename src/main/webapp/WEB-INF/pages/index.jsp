@@ -11,7 +11,7 @@
 
 <div class="navbar navbar-inverse navbar-static-top">
     <div class="container">
-        <a href="#" class="navbar-brand">Tech site</a>
+        <a href="/" class="navbar-brand">Tech site</a>
 
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
             <span class="icon-bar"></span>
@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse navHeaderCollapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="/blog">Blog</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b> </a>
                     <ul class="dropdown-menu">
