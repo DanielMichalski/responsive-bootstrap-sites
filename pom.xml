@@ -17,7 +17,6 @@
 
     <dependencies>
 
-        <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
@@ -56,7 +55,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- JUnit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -64,14 +62,12 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Apache Tiles -->
         <dependency>
             <groupId>org.apache.tiles</groupId>
             <artifactId>tiles-extras</artifactId>
             <version>${tiles.version}</version>
         </dependency>
 
-        <!-- Log4j-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
