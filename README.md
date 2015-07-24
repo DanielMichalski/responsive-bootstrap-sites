@@ -11,4 +11,4 @@ It contains some useful configuration items:
 - JQuery 1.11.0
 - Log4j
 
-![alt text](https://github.com/DanielMichalski/responsive-bootstrap-sites/tree/master/src/main/resources/img/screen_bootstrap.png "Screen")
+![](https://github.com/DanielMichalski/responsive-bootstrap-sites/blob/master/src/main/resources/img/screen_bootstrap.png)
