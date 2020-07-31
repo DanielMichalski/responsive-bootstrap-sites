@@ -1,1 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
+.idea
+.mvn/wrapper/maven-wrapper.jar
+*.iml
+target
