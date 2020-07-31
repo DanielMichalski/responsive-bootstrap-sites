@@ -14,7 +14,7 @@
                                 </h3>
                             </div>
 
-                            <img class="featuredImg" src="/resources/img/phone.jpg" width="100%"/>
+                            <img class="featuredImg" src="resources/img/phone.jpg" width="100%"/>
 
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam augue enim,
